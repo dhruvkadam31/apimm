@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const url = "mongodb+srv://dhruvkadam31yt:1oqbEQYFhm4kzAAX@cluster0.pkwm0rl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const url = "mongodb+srv://dhruvkadam31yt:8icyTyUUnAwW5Hqe@cluster0.lzljiqc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 const client = new MongoClient(url);
 
 app.get("/", async (req, res) => {
